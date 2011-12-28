@@ -1,0 +1,22 @@
+Matrix Abstract Data Type
+(last updated in 2008)
+
+ *	This is a data type meant to be used in 
+ *	Linear Algebra calculations.
+ *		The Matrix ADT can assume any size ( ROWSxCOLS )
+ *		Matrices can be 
+ *			1. Added
+ *			2. Multiplied
+ *			3. Transposed 
+ *			4. Inverted		// NOT YET DEFINED
+ *
+ *	Matrices can be used to solve linear systems or to 
+ *	perform linear transformations such as rotations and
+ *	projections.
+
+Future Plans:
+ * Implement:
+ 	Inversion
+	Eigenvalues & Eigenvectors
+ * Generalize to Template for use with any type that supports + and * operators
+ * Integrate with Boost Graph Library's adjacency_matrix type
